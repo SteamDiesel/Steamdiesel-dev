@@ -1,6 +1,6 @@
 <script>
-import Card from "./Articles/Card.vue";
-import BaseLayout from "../Layouts/BaseLayout.vue";
+import Card from "./Blog/SmallCard.vue";
+import BaseLayout from "@/Layouts/BaseLayout.vue";
 export default {
 	data() {
 		return {
@@ -292,9 +292,11 @@ export default {
 							"
 						>
 							<div class="flex flex-col gap-16">
-								<Card />
-								<Card />
-								<Card />
+								<Card
+									v-for="(p, index) in $attrs.posts"
+									:key="index"
+									:post="p"
+								/>
 							</div>
 							<div class="space-y-10 lg:pl-16 xl:pl-24">
 								<div

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PostController;
+use App\Models\Post;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -16,13 +18,16 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
+    $posts = Post::latest()->limit(3)->get();
     return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+        'posts' => $posts
     ]);
 });
+
+Route::get('/blog', [PostController::class, 'index']);
+Route::get('/blog/{slug}', [PostController::class, 'show']);
+
+
 
 Route::middleware([
     'auth:sanctum',
