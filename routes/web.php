@@ -18,7 +18,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    $posts = Post::latest()->limit(3)->get();
+    $posts = Post::where('is_published', '=', true)->latest()->limit(3)->get();
     return Inertia::render('Welcome', [
         'posts' => $posts
     ]);

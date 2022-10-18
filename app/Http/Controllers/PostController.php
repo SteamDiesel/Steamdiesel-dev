@@ -17,8 +17,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::select(['id', 'title', 'slug', 'paragraph', 'updated_at'])->get();
-        // return $posts;
+        $posts = Post::select(['id', 'title', 'slug', 'paragraph', 'updated_at'])->where('is_published', '=', true)->get();
+
         return Inertia::render('Blog/Index', [
             'posts' => $posts
         ]);
@@ -34,6 +34,7 @@ class PostController extends Controller
     {
         $post = Post::where('slug', $slug)->first();
         // return $post;
+        $post->increment('views');
         return Inertia::render('Blog/Post', [
             'post' => $post
         ]);

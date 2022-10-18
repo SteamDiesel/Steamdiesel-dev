@@ -11,6 +11,7 @@
 						<div class="xl:relative">
 							<div class="mx-auto max-w-2xl">
 								<button
+									@click="back"
 									type="button"
 									aria-label="Go back to articles"
 									class="
@@ -121,6 +122,9 @@ export default {
 	components: { BaseLayout, Markdown },
 	methods: {
 		dateStamp,
+		back() {
+			window.history.back();
+		},
 	},
 };
 </script>

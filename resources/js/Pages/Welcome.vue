@@ -63,6 +63,9 @@ export default {
 				},
 			],
 			projects: [{ title: "", description: "", img: "" }],
+			meta_title: "Web developer in Brisbane for hire or consult",
+			meta_description:
+				"Full-stack web developer based in Brisbane. I work with Laravel PHP and VueJS to make powerful applications & responsive websites that are SEO optimized & blazing fast.",
 		};
 	},
 	components: { Card, BaseLayout },
@@ -71,11 +74,15 @@ export default {
 
 <template>
 	<Head>
-		<title>Welcome</title>
-		<meta
-			name="description"
-			content="Full-stack web developer based in Brisbane. I work with Laravel PHP and VueJS to make powerful applications & responsive websites that are SEO optimized & blazing fast."
-		/>
+		<title>{{ title }}</title>
+		<meta property="og:title" :content="meta_title" />
+		<meta name="twitter:title" :content="meta_title" />
+
+		<meta name="description" :content="meta_description" />
+		<meta property="og:description" :content="meta_description" />
+		<meta name="twitter:description" :content="meta_description" />
+
+		<meta property="og:image" content="/images/splat.png" />
 	</Head>
 	<BaseLayout>
 		<div class="sm:px-8 mt-9">
