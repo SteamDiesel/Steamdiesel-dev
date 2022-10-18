@@ -74,7 +74,7 @@ export default {
 
 <template>
 	<Head>
-		<title>{{ title }}</title>
+		<title>Web Developer in Brisbane</title>
 		<meta property="og:title" :content="meta_title" />
 		<meta name="twitter:title" :content="meta_title" />
 
