@@ -23,6 +23,13 @@ Route::get('/', function () {
         'posts' => $posts
     ]);
 });
+Route::get('/services', function () {
+    $posts = Post::where('is_published', '=', true)->latest()->limit(3)->get();
+    return Inertia::render('Services', [
+        'posts' => $posts
+    ]);
+});
+
 
 Route::get('/blog', [PostController::class, 'index']);
 Route::get('/blog/{slug}', [PostController::class, 'show']);

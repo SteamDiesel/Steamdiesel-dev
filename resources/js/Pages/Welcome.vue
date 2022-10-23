@@ -359,33 +359,15 @@ export default {
 											dark:text-zinc-400
 										"
 									>
-										Call on
+										If you'd like to chat you can
 										<a
 											class="
 												font-semibold
 												text-orange-600
 											"
-											href="tel:0400696332"
-											>0400 696 332</a
-										>.
-									</p>
-
-									<p
-										class="
-											mt-2
-											text-sm text-zinc-600
-											dark:text-zinc-400
-										"
-									>
-										Or send an email to
-										<a
-											class="
-												font-semibold
-												text-orange-600
-											"
-											href="mailto:jason.lloyd.law@gmail.com"
-											>jason.lloyd.law@gmail.com</a
-										>.
+											href="https://app.simplymeet.me/steamdiesel-dev/30-minute-discovery"
+											>book a call with me here.</a
+										>
 									</p>
 								</div>
 								<div

@@ -54,6 +54,7 @@
 							focus:ring-2
 							focus:ring-inset
 							focus:ring-indigo-500
+							dark:bg-slate-800
 						"
 					>
 						<span class="sr-only">Open menu</span>
@@ -635,11 +636,12 @@
 			>
 				<div
 					class="
-						divide-y-2 divide-gray-50
 						rounded-lg
 						bg-white
 						shadow-lg
 						ring-1 ring-black ring-opacity-5
+						dark:bg-slate-800 dark:ring-gray-500
+						pb-10
 					"
 				>
 					<div class="px-5 pt-5 sm:pb-8">
@@ -660,6 +662,7 @@
 										focus:ring-2
 										focus:ring-inset
 										focus:ring-indigo-500
+										dark:bg-slate-800
 									"
 								>
 									<span class="sr-only">Close menu</span>
@@ -670,8 +673,10 @@
 								</PopoverButton>
 							</div>
 						</div>
-						<div class="mt-6 sm:mt-8">
-							<!-- <nav>
+						<!-- <div class="mt-6 sm:mt-8">
+
+							<nav>
+
 								<div
 									class="
 										grid
@@ -737,21 +742,26 @@
 										<span aria-hidden="true"> &rarr;</span>
 									</a>
 								</div>
-							</nav> -->
-						</div>
+							</nav>
+						</div> -->
 					</div>
 					<div class="py-6 px-5">
-						<div class="grid grid-cols-2 gap-4">
+						<div class="gap-4 w-full flex flex-col justify-center">
 							<Link
 								v-for="(i, index) in nav"
 								:key="index"
 								:href="i.url"
 								class="
 									rounded-md
+									w-full
+									flex
+									my-6
+									justify-center
 									text-base
 									font-medium
 									text-gray-900
 									hover:text-gray-700
+									dark:text-gray-100 dark:hover:text-gray-400
 								"
 								>{{ i.title }}</Link
 							>
