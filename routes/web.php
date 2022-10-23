@@ -24,8 +24,12 @@ Route::get('/', function () {
     ]);
 });
 Route::get('/services', function () {
+
+    return Inertia::render('Services');
+});
+Route::get('/thanks_for_booking', function () {
     $posts = Post::where('is_published', '=', true)->latest()->limit(3)->get();
-    return Inertia::render('Services', [
+    return Inertia::render('BookingLander', [
         'posts' => $posts
     ]);
 });

@@ -582,7 +582,8 @@
 											<a
 												class="
 													font-semibold
-													text-indigo-600
+													dark:text-indigo-400
+													text-indigo-700
 												"
 												href="http://stripe.com/"
 												target="_blank"
