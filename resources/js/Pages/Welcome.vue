@@ -12,13 +12,13 @@ export default {
 				},
 				{
 					alt: "",
-					reverse: false,
-					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665286344/SteamDiesel.dev/Jason_Law_el6xir.png",
+					reverse: true,
+					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665287512/SteamDiesel.dev/20221009_133841_1_d7yaxy.jpg",
 				},
 				{
 					alt: "",
-					reverse: true,
-					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665287512/SteamDiesel.dev/20221009_133841_1_d7yaxy.jpg",
+					reverse: false,
+					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665286344/SteamDiesel.dev/Jason_Law_el6xir.png",
 				},
 				{
 					alt: "",
