@@ -91,7 +91,7 @@ export default {
 		return {
 			nav: [
 				{ title: "Home", url: "/" },
-				// { title: "Projects", url: "/projects" },
+				{ title: "Services", url: "/services" },
 				{ title: "Blog", url: "/blog" },
 			],
 		};

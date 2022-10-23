@@ -281,6 +281,7 @@
 								font-medium
 								text-gray-500
 								hover:text-gray-900
+								dark:text-gray-100 dark:hover:text-orange-600
 							"
 							>{{ i.title }}</Link
 						>

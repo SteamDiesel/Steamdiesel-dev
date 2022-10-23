@@ -13,7 +13,7 @@ export default {
 				{
 					alt: "",
 					reverse: false,
-					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665287624/SteamDiesel.dev/101936688_171467694335239_4061711103152375823_n_frch4l.jpg",
+					src: "https://res.cloudinary.com/garaji-media/image/upload/c_scale,w_300/v1665286344/SteamDiesel.dev/Jason_Law_el6xir.png",
 				},
 				{
 					alt: "",
@@ -120,17 +120,10 @@ export default {
 									dark:text-zinc-400
 								"
 							>
-								I’m Jason, a software designer, founder, and
-								amateur mechanic. I'm available for hire to
-								build or consult on your next web project. I’m
-								also the founder and CEO of
-								<a
-									class="font-semibold text-slate-500"
-									href="https://garaji.me"
-									target="_blank"
-									>Garaji.me</a
-								>, an early stage social platform for car
-								enthusiasts.
+								I'm Jason, a web developer, founder and amateur
+								mechanic. I'm available for hire to build or
+								consult on your next web project in person or
+								remotely within Australia.
 							</p>
 							<p
 								class="
@@ -139,15 +132,28 @@ export default {
 									dark:text-zinc-400
 								"
 							>
-								I work with the
+								I work with
+								<a
+									class="font-semibold text-blue-500"
+									href="https://en-au.wordpress.org/download/"
+									target="_blank"
+									>Wordpress</a
+								>,
+
+								<a
+									class="font-semibold text-green-500"
+									href="https://www.shopify.com/au"
+									target="_blank"
+									>Shopify</a
+								>, and the
 								<a
 									class="font-semibold text-red-500"
 									href="https://laravel.com"
 									target="_blank"
 									>Laravel PHP framework</a
 								>
-								to build robust and powerful web applications. I
-								also work with the
+								to build robust and powerful web sites and
+								applications. I also work with the
 								<a
 									class="accent font-semibold"
 									href="https://vuejs.org"
@@ -157,6 +163,21 @@ export default {
 								to build rich and responsive websites and apps
 								that are blazing fast.
 							</p>
+							<p
+								class="
+									mt-4
+									text-base text-zinc-600
+									dark:text-zinc-400
+								"
+							>
+								Check out the range of
+								<a
+									class="font-semibold text-orange-600"
+									href="/services"
+									>web development services I offer here.</a
+								>
+							</p>
+
 							<div class="mt-6 flex gap-6">
 								<a
 									class="group -m-1 p-1"
@@ -562,7 +583,7 @@ export default {
 </template>
 <style scoped>
 .accent {
-	background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+	background: -webkit-linear-gradient(315deg, #1b9e63 25%, #3656f5);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

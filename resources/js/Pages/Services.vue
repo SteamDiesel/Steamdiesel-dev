@@ -76,7 +76,7 @@
 							xl:translate-x-[-1%] xl:right-1/2
 						"
 					/>
-					<!-- index -->
+
 					<div
 						class="
 							mx-auto
@@ -88,313 +88,6 @@
 						"
 					>
 						<div class="max-w-2xl">
-							<div class="py-4">
-								<h2
-									class="
-										text-2xl
-										font-semibold
-										mt-4
-										text-zinc-800
-										dark:text-zinc-100
-									"
-								>
-									Custom Code
-								</h2>
-								<div class="ml-2 md:ml-4">
-									<h3
-										class="
-											text-lg
-											font-bold
-											mt-4
-											text-zinc-800
-											dark:text-zinc-100
-										"
-									>
-										Server Side
-									</h3>
-									<div class="ml-2 md:ml-4">
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											PHP Frameworks
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											A framework is a base collection of
-											“boilerplate” code that is intensely
-											boring and unproductive to write.
-											Using a framework like laravel
-											dramatically accelerates the initial
-											development and deployment of
-											websites and applications.
-										</p>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Almost the entire internet runs on
-											PHP, and both Laravel and WordPress
-											are great options for serving web
-											pages to your visitors. Both have
-											their strengths and weaknesses, so
-											I'll help you choose which is the
-											most appropriate platform to suit
-											your plans.
-										</p>
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											APIs
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Application Program Interface(s). An
-											API is a resource that other
-											programs can use to access the data
-											they need. An API is a collection of
-											“endpoints”, for example; the google
-											maps API offers many endpoints,
-											including one that receives a string
-											of text and returns a list of
-											matching addresses.
-										</p>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Your website or application can have
-											an API, and I can build that for
-											you. You might have a wholesale
-											collection of T-Shirts and want to
-											make your entire catalogue including
-											pricing and stock levels available
-											to your retail partners, an API is a
-											great way to provide real-time data.
-											REST or GraphQL APIs are the most
-											common, but there will also be media
-											streaming and database direct
-											connections too. I can work with all
-											of them to build your next website
-											or app.
-										</p>
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											Webhooks
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Similar to an API, a webhook is like
-											a “listener”. It's a special link on
-											your site that other web services
-											use to send updates to your site.
-											For instance, if you use
-											<a
-												class="
-													font-semibold
-													text-indigo-600
-												"
-												href="http://stripe.com/"
-												target="_blank"
-												rel="noopener noreferrer"
-												>Stripe</a
-											>
-											for your subscription billing,
-											webhooks allow your site to listen
-											for alerts from stripe if a users
-											card declines or cancels their
-											subscription, allowing your system
-											to automatically suspend service,
-											send an email or anything else you
-											want your app to do.
-										</p>
-									</div>
-								</div>
-								<div class="ml-2 md:ml-4">
-									<h3
-										class="
-											text-lg
-											font-bold
-											mt-4
-											text-zinc-800
-											dark:text-zinc-100
-										"
-									>
-										Client Side
-									</h3>
-									<div class="ml-2 md:ml-4">
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											HTML
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Hyper-Text Markup Language is what
-											the web-browser interprets to
-											display a webpage for your site's
-											visitor. A web page is a document
-											that contains both the content and
-											instructions for how to display that
-											content. This document is written in
-											HTML.
-										</p>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											For a website to rank highly in
-											search results, the HTML needs to
-											follow best practice conventions for
-											information structure and
-											readability. Getting page structure
-											right is fundamental to Search
-											Engine Optimisation (SEO).
-										</p>
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											Styles & CSS
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											It's time to make it interesting and
-											enjoyable for your site visitor to
-											consume. By adding attractive fonts,
-											graphics and colour, you give your
-											reader visual cues that enrich the
-											content of your site (and not
-											distract from it!).
-										</p>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											In most cases 'Less is more' for
-											styling a web site, and your focus
-											should be on the fundamentals of
-											consistency, readability and
-											accessibility.
-										</p>
-										<h4
-											class="
-												text-base
-												italic
-												mt-4
-												text-zinc-800
-												dark:text-zinc-100
-											"
-										>
-											Javascript
-										</h4>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Javascript makes web pages do cool
-											and interesting stuff.
-											<br />
-											With Javascript a webpage page can:
-										</p>
-										<ul
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											<li>
-												Fetch data from other sites,
-												servers, APIs or resources
-											</li>
-											<li>
-												Change the page content in
-												response to user input
-											</li>
-											<li>
-												Do math, such as calculating
-												loan repayments or shopping cart
-												totals
-											</li>
-										</ul>
-										<p
-											class="
-												text-base text-zinc-600
-												dark:text-zinc-400
-											"
-										>
-											Javascript is a whole programming
-											language that runs almost the entire
-											internet. I work with the VueJS
-											Javascript framework to build
-											everything from page widgets and
-											popout menus to Progressive web apps
-											that look and feel like native
-											windows, iOS and Android
-											applications.
-										</p>
-									</div>
-								</div>
-							</div>
 							<div class="py-4">
 								<h2
 									class="
@@ -749,6 +442,313 @@
 										help you get your Google or other
 										analytics tools working smoothly.
 									</p>
+								</div>
+							</div>
+							<div class="py-4">
+								<h2
+									class="
+										text-2xl
+										font-semibold
+										mt-4
+										text-zinc-800
+										dark:text-zinc-100
+									"
+								>
+									Custom Code
+								</h2>
+								<div class="ml-2 md:ml-4">
+									<h3
+										class="
+											text-lg
+											font-bold
+											mt-4
+											text-zinc-800
+											dark:text-zinc-100
+										"
+									>
+										Server Side
+									</h3>
+									<div class="ml-2 md:ml-4">
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											PHP Frameworks
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											A framework is a base collection of
+											“boilerplate” code that is intensely
+											boring and unproductive to write.
+											Using a framework like laravel
+											dramatically accelerates the initial
+											development and deployment of
+											websites and applications.
+										</p>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Almost the entire internet runs on
+											PHP, and both Laravel and WordPress
+											are great options for serving web
+											pages to your visitors. Both have
+											their strengths and weaknesses, so
+											I'll help you choose which is the
+											most appropriate platform to suit
+											your plans.
+										</p>
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											APIs
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Application Program Interface(s). An
+											API is a resource that other
+											programs can use to access the data
+											they need. An API is a collection of
+											“endpoints”, for example; the google
+											maps API offers many endpoints,
+											including one that receives a string
+											of text and returns a list of
+											matching addresses.
+										</p>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Your website or application can have
+											an API, and I can build that for
+											you. You might have a wholesale
+											collection of T-Shirts and want to
+											make your entire catalogue including
+											pricing and stock levels available
+											to your retail partners, an API is a
+											great way to provide real-time data.
+											REST or GraphQL APIs are the most
+											common, but there will also be media
+											streaming and database direct
+											connections too. I can work with all
+											of them to build your next website
+											or app.
+										</p>
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											Webhooks
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Similar to an API, a webhook is like
+											a “listener”. It's a special link on
+											your site that other web services
+											use to send updates to your site.
+											For instance, if you use
+											<a
+												class="
+													font-semibold
+													text-indigo-600
+												"
+												href="http://stripe.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+												>Stripe</a
+											>
+											for your subscription billing,
+											webhooks allow your site to listen
+											for alerts from stripe if a users
+											card declines or cancels their
+											subscription, allowing your system
+											to automatically suspend service,
+											send an email or anything else you
+											want your app to do.
+										</p>
+									</div>
+								</div>
+								<div class="ml-2 md:ml-4">
+									<h3
+										class="
+											text-lg
+											font-bold
+											mt-4
+											text-zinc-800
+											dark:text-zinc-100
+										"
+									>
+										Client Side
+									</h3>
+									<div class="ml-2 md:ml-4">
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											HTML
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Hyper-Text Markup Language is what
+											the web-browser interprets to
+											display a webpage for your site's
+											visitor. A web page is a document
+											that contains both the content and
+											instructions for how to display that
+											content. This document is written in
+											HTML.
+										</p>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											For a website to rank highly in
+											search results, the HTML needs to
+											follow best practice conventions for
+											information structure and
+											readability. Getting page structure
+											right is fundamental to Search
+											Engine Optimisation (SEO).
+										</p>
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											Styles & CSS
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											It's time to make it interesting and
+											enjoyable for your site visitor to
+											consume. By adding attractive fonts,
+											graphics and colour, you give your
+											reader visual cues that enrich the
+											content of your site (and not
+											distract from it!).
+										</p>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											In most cases 'Less is more' for
+											styling a web site, and your focus
+											should be on the fundamentals of
+											consistency, readability and
+											accessibility.
+										</p>
+										<h4
+											class="
+												text-base
+												italic
+												mt-4
+												text-zinc-800
+												dark:text-zinc-100
+											"
+										>
+											Javascript
+										</h4>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Javascript makes web pages do cool
+											and interesting stuff.
+											<br />
+											With Javascript a webpage page can:
+										</p>
+										<ul
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											<li>
+												Fetch data from other sites,
+												servers, APIs or resources
+											</li>
+											<li>
+												Change the page content in
+												response to user input
+											</li>
+											<li>
+												Do math, such as calculating
+												loan repayments or shopping cart
+												totals
+											</li>
+										</ul>
+										<p
+											class="
+												text-base text-zinc-600
+												dark:text-zinc-400
+											"
+										>
+											Javascript is a whole programming
+											language that runs almost the entire
+											internet. I work with the VueJS
+											Javascript framework to build
+											everything from page widgets and
+											popout menus to Progressive web apps
+											that look and feel like native
+											windows, iOS and Android
+											applications.
+										</p>
+									</div>
 								</div>
 							</div>
 							<div class="py-4">
