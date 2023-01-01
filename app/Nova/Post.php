@@ -3,6 +3,7 @@
 namespace App\Nova;
 
 use Laravel\Nova\Fields\Boolean;
+use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Slug;
@@ -59,7 +60,9 @@ class Post extends Resource
             ])->alwaysShow()->rows(3),
             Text::make('Image', 'title_image')->hideFromIndex(),
             Markdown::make('Body')->alwaysShow(),
-            Number::make('Views')->hideFromDetail()->sortable(),
+            Number::make('Views')->min(1)->hideFromDetail()->sortable(),
+            Date::make('updated_at')->sortable(),
+            Date::make('created_at')->sortable()
         ];
     }
 

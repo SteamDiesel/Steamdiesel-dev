@@ -3,8 +3,10 @@
 use App\Http\Controllers\PostController;
 use App\Models\Post;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,4 +50,19 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
+});
+
+
+Route::prefix('static')->group(function () {
+    Route::get('/blog', function () {
+        // Matches The "/static/blog" URL
+        $posts = Post::select(['id', 'title', 'slug', 'paragraph', 'updated_at'])->where('is_published', '=', true)->get();
+        return view('components.blog.index', ['posts' => $posts]);
+    });
+    Route::get('/blog/{slug}', function ($slug) {
+        // Matches The "/static/blog/{slug}" URL
+        $post = Post::where('slug', $slug)->first();
+        $body = Str::of($post->body)->markdown();
+        return view('components.blog.show', ['post' => $post, 'body' => $body]);
+    });
 });

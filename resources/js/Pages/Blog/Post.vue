@@ -2,6 +2,7 @@
 	<Head>
 		<title>{{ $attrs.post.title }}</title>
 		<meta name="description" :content="$attrs.post.meta" />
+		<link rel="canonical" :href="'/static/blog/' + $attrs.post.slug" />
 	</Head>
 	<BaseLayout>
 		<div class="sm:px-8 mt-16 lg:mt-32">

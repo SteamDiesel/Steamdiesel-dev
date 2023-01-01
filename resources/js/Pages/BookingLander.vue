@@ -14,7 +14,7 @@
 				content="/images/splat01_cropped_sm.png"
 			/>
 		</Head>
-		<div class="sm:px-8 mt-9">
+		<div class="sm:px-8 mt-9 min-h-screen">
 			<div class="mx-auto max-w-7xl lg:px-8">
 				<div class="px-4 sm:px-8 lg:px-12">
 					<div

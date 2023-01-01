@@ -55,6 +55,35 @@
 								& domain management to building large and
 								complex applications.
 							</p>
+							<p
+								class="
+									mt-6
+									text-base text-zinc-600
+									dark:text-zinc-400
+								"
+							>
+								When you work with me, you can be confident that
+								your work is being completed by me, a skilled
+								full stack developer based in Brisbane,
+								Queensland. I may occasionally refer some
+								specialised work to other local Australian
+								developers or designers, and I will always
+								disclose this to you in advance.
+							</p>
+							<p
+								class="
+									mt-6
+									text-base
+									italic
+									text-black
+									dark:text-white
+									font-semibold
+								"
+							>
+								I guarantee that I will never refer or
+								subcontract any client work to any offshore
+								individuals or agencies under any circumstances.
+							</p>
 						</div>
 					</div>
 					<img
@@ -100,6 +129,79 @@
 								>
 									Websites
 								</h2>
+
+								<div class="ml-2 md:ml-4">
+									<h3
+										class="
+											text-lg
+											font-bold
+											mt-4
+											text-zinc-800
+											dark:text-zinc-100
+										"
+									>
+										Laravel
+									</h3>
+									<p
+										class="
+											text-base text-zinc-600
+											dark:text-zinc-400
+										"
+									>
+										If you need to build proprietary tools
+										for internal business use, or if you
+										want to make a custom web application
+										with subscription billing, user access
+										control, team based access, lots of
+										objects with lots of related and shared
+										properties... There is simply nothing
+										better than Laravel.
+									</p>
+									<p
+										class="
+											text-base text-zinc-600
+											dark:text-zinc-400
+										"
+									>
+										<span
+											class="
+												italic
+												text-black
+												dark:text-white
+												font-semibold
+											"
+											>Does your business currently depend
+											on spreadsheets or other outdated
+											technology?</span
+										>
+										<br />
+										I can turn that spreadsheet into a
+										blazing fast web-application so all your
+										users have access to live data
+										instantly.
+									</p>
+									<p
+										class="
+											text-base text-zinc-600
+											dark:text-zinc-400
+										"
+									>
+										If you need a specific and proprietary
+										solution to your unique business
+										problems
+										<a
+											href="https://app.simplymeet.me/steamdiesel-dev/30-minute-discovery"
+											target="_blank"
+											rel="noopener noreferrer"
+											class="
+												font-semibold
+												text-orange-600
+											"
+											>click this link to book a free
+											consult with me today!</a
+										>
+									</p>
+								</div>
 								<div class="ml-2 md:ml-4">
 									<h3
 										class="
@@ -248,79 +350,8 @@
 										store.
 									</p>
 								</div>
-								<div class="ml-2 md:ml-4">
-									<h3
-										class="
-											text-lg
-											font-bold
-											mt-4
-											text-zinc-800
-											dark:text-zinc-100
-										"
-									>
-										Laravel
-									</h3>
-									<p
-										class="
-											text-base text-zinc-600
-											dark:text-zinc-400
-										"
-									>
-										If you need to build proprietary tools
-										for internal business use, or if you
-										want to make a custom web application
-										with subscription billing, user access
-										control, team based access, lots of
-										objects with lots of related and shared
-										properties... There is simply nothing
-										better than Laravel.
-									</p>
-									<p
-										class="
-											text-base text-zinc-600
-											dark:text-zinc-400
-										"
-									>
-										<span
-											class="
-												italic
-												text-black
-												dark:text-white
-												font-semibold
-											"
-											>Does your business currently depend
-											on spreadsheets or other outdated
-											technology?</span
-										>
-										<br />
-										I can turn that spreadsheet into a
-										blazing fast web-application so all your
-										users have access to live data
-										instantly.
-									</p>
-									<p
-										class="
-											text-base text-zinc-600
-											dark:text-zinc-400
-										"
-									>
-										If you need a specific and proprietary
-										solution to your unique business
-										problems
-										<a
-											href="https://app.simplymeet.me/steamdiesel-dev/30-minute-discovery"
-											target="_blank"
-											rel="noopener noreferrer"
-											class="
-												font-semibold
-												text-orange-600
-											"
-											>click this link to book a free
-											consult with me today!</a
-										>
-									</p>
-								</div>
 							</div>
+
 							<div class="py-4">
 								<h2
 									class="
