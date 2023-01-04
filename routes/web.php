@@ -36,6 +36,12 @@ Route::get('/thanks_for_booking', function () {
     ]);
 });
 
+Route::get('/resume', function () {
+    return Inertia::render('Resume/Resume');
+})->name('resume');
+Route::get('/cover', function () {
+    return Inertia::render('Resume/Cover');
+})->name('cover');
 
 Route::get('/blog', [PostController::class, 'index']);
 Route::get('/blog/{slug}', [PostController::class, 'show']);
@@ -63,6 +69,7 @@ Route::prefix('static')->group(function () {
         // Matches The "/static/blog/{slug}" URL
         $post = Post::where('slug', $slug)->first();
         $body = Str::of($post->body)->markdown();
+        $post->increment('views');
         return view('components.blog.show', ['post' => $post, 'body' => $body]);
     });
 });

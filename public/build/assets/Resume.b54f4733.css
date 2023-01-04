@@ -1,0 +1,1 @@
+.no-break{page-break-inside:avoid}@media print{.break-after{page-break-after:always}}

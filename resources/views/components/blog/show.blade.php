@@ -69,7 +69,7 @@
 													bg-zinc-200
 													dark:bg-zinc-500
 												"></span><span class="ml-3">{{
-                                            $post->updated_at
+                                            $post->updated_at->diffForHumans()
                                             }}</span></time>
                                 </header>
                                 <div class="mt-8 prose dark:prose-invert">
